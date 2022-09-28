@@ -1,0 +1,361 @@
+.body {
+  width: 100%;
+}
+
+.body > .hero {
+  width: 100%;
+  background-color: #fafafa;
+  padding-bottom: 150px;
+}
+
+.body > .hero > .header {
+  padding: 50px 11.5px 0 11.5px;
+}
+
+.body > .hero > .header > p,
+.body > .hero > .header > h4,
+.body > .hero > .header > h5 {
+  text-align: center;
+}
+
+.body > .hero > .header > h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.body > .hero > .header > p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 17px 0 24px 0;
+}
+
+.hero > .hero > .header > h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.hero > .button-group {
+  width: 100%;
+  position: relative;
+  padding: 0px 89px 89px;
+  margin-top: 33px;
+  background-color: transparent;
+}
+
+.body > .phone-image {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+.body > .phone-image > div {
+  display: none;
+}
+.body > .phone-image > .l-phone {
+  position: absolute;
+  top: -58%;
+  left: 0%;
+}
+.body > .phone-image > .l-phone-desk {
+  display: none;
+}
+.body > .phone-image > .r-phone {
+  position: absolute;
+  top: -24%;
+  right: 0%;
+}
+.body > .phone-image > p {
+  position: absolute;
+  width: fit-content;
+  white-space: nowrap;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+.body > .create-account,
+.body > .explore,
+.body > .checkout {
+  width: 100%;
+}
+
+.body > .explore,
+.body > .checkout {
+  margin-top: -200px;
+}
+.body > .create-account > header,
+.body > .explore > header,
+.body > .checkout > header {
+  padding: 65px 39.5px 0 39.5px;
+}
+.body > .create-account > header > h3,
+.body > .create-account > header > h2,
+.body > .explore > header > h3,
+.body > .explore > header > h2,
+.body > .checkout > header > h3,
+.body > .checkout > header > h2 {
+  font-weight: 700;
+  text-align: center;
+}
+.body > .explore > header > h3:nth-child(2) {
+  display: none;
+}
+.body > .create-account > header > h3,
+.body > .explore > header > h3,
+.body > .checkout > header > h3 {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+.body > .create-account > header > h2,
+.body > .explore > header > h2,
+.body > .checkout > header > h2 {
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-top: 42px;
+  color: #252b42;
+}
+.body > .create-account > header > h4,
+.body > .explore > header > h4,
+.body > .checkout > header > h4 {
+  width: 65%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  margin: 50px auto;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.body > .create-account > .create-acc,
+.body > .explore > .explore-img,
+.body > .checkout > img {
+  width: 100%;
+  margin-top: -150px;
+}
+.body > .create-account > .create-acc-desk {
+  display: none;
+}
+.body > .explore > svg {
+  display: none;
+}
+.body > .checkout > svg {
+  display: none;
+}
+
+.body > .download {
+  width: 100%;
+  background-color: #252b42;
+  position: relative;
+  padding-bottom: 110px;
+  margin-top: -150px;
+}
+.body > .download > header {
+  padding: 120px 54px 0px 54px;
+}
+
+.body > .download > header > h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.body > .download > header > h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 0.2px;
+  color: #bdbdbd;
+}
+
+.body > .download > .button-group {
+  width: 100%;
+  padding: 0 39.5px 0 39.5px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.body > .download > .button-group > button {
+  white-space: nowrap;
+}
+.body > .download > .button-group > button:nth-child(2) {
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .body > .hero {
+    background: url("../../assets/Rectangle 48.jpg") no-repeat center
+      center/cover;
+  }
+  .body > .hero > .header > p,
+  .body > .hero > .header > h4,
+  .body > .hero > .header > h5 {
+    color: #fff;
+  }
+  .body > .hero > .header > h5 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 73px;
+  }
+  .body > .hero > .header > p {
+    width: 60%;
+    font-size: 58px;
+    line-height: 80px;
+    margin: 17px 0 27px 0;
+  }
+  .hero > .button-group {
+    width: 40%;
+    flex-direction: row !important;
+  }
+  .hero > .button-group > button:nth-child(2) {
+    border: 1px solid #fff !important;
+    margin-left: 34px;
+    color: #fff !important;
+  }
+
+  .body > .phone-image {
+    height: 90vh;
+    position: relative;
+  }
+  .body > .phone-image > .hr {
+    display: block;
+    width: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .body > .phone-image > .l-phone {
+    display: none;
+  }
+  .body > .phone-image > .l-phone-desk {
+    position: absolute;
+    display: inline;
+    top: -44%;
+    left: 27%;
+    z-index: 2;
+  }
+  .hr {
+    display: none;
+  }
+  .body > .phone-image > .r-phone {
+    width: 285px;
+    position: absolute;
+    top: -15%;
+    right: 30%;
+    z-index: 1;
+  }
+  .body > .phone-image > p {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+  }
+
+  .body > .create-account,
+  .body > .explore,
+  .body > .checkout {
+    width: 70%;
+    height: fit-content;
+    margin: 0 auto;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .body > .create-account > header {
+    order: 1;
+    position: relative;
+    padding: 0px;
+  }
+  .body > .create-account > header > h3,
+  .body > .create-account > header > h2,
+  .body > .create-account > header > h4,
+  .body > .explore > header > h3,
+  .body > .explore > header > h2,
+  .body > .explore > header > h4,
+  .body > .checkout > header > h3,
+  .body > .checkout > header > h2,
+  .body > .checkout > header > h4 {
+    width: fit-content;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .body > .create-account > .create-acc {
+    display: none;
+  }
+  .body > .create-account > .create-acc-desk {
+    display: inline;
+    width: 500px;
+    position: relative;
+    float: left;
+  }
+
+  .body > .explore,
+  .body > .checkout {
+    margin-top: 0px;
+  }
+  .body > .explore > header,
+  .body > .checkout > header {
+    padding: 0;
+    width: 60%;
+  }
+  .body > .explore > .explore-img {
+    display: none;
+  }
+  .body > .explore > svg {
+    display: block;
+    float: right;
+    height: fit-content;
+  }
+  .body > .explore > header > h3:nth-child(1) {
+    display: none;
+  }
+  .body > .explore > header > h3:nth-child(2) {
+    display: block;
+  }
+  .body > .checkout {
+    padding-bottom: 157px;
+  }
+  .body > .checkout > header {
+    order: 1;
+  }
+  .body > .checkout > img {
+    display: none;
+  }
+  .body > .checkout > svg {
+    display: block;
+    float: left;
+    height: fit-content;
+  }
+
+  .body > .download {
+    background: url("../../assets/Rectangle 47.jpg") no-repeat center
+      center/cover;
+  }
+  .body > .download > header > h4 {
+    color: #fff;
+  }
+  .body > .download > .button-group {
+    width: 30%;
+  }
+}
